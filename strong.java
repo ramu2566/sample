@@ -28,10 +28,11 @@ public class strong {
 
     public static void main(String[] args) {
         System.out.println("Strong numbers from 1 to 5000 are:");
-        for (int i = 1; i <= 5000; i++) {
+        for (int i = 1; i <= 500; i++) {
             if (isStrong(i)) {
                 System.out.print(i + " ");
             }
         }
     }
+
 }
